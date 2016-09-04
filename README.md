@@ -70,3 +70,4 @@ Strategy
  - [Visual Studio](https://www.visualstudio.com/)
  - [Git](https://git-scm.com/)
  - [GitHub](https://github.com/)
+ - [AMS483/583@UW](http://faculty.washington.edu/rjl/classes/am583s2014/)
