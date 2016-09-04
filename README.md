@@ -1,6 +1,5 @@
 # CSE6000 Fall2016
 Class page for Embedded computing for scientific and industrial imaging applications
-과학및 산업용 이미징 애플리케이션을 위한 임베디드 컴퓨팅
 
 ## About class
 The aim of this course is to design embedded systems in devices and structures which are established to function for scientific imaging in mobile, remote, and non-tethered environments. Assuming a background in computational science and engineering, this course introduces the students to embedded computing techniques for scientific and industrial imaging.
@@ -19,7 +18,7 @@ Strategy
 
 ## Course schedule
 week   | date         | slide
------- |:-------------|:-------------:
+------:|:-------------|:-------------
 1 | Sep 5  | [Goal of course, overview, requirments](slides/ec_siip_01.pdf), [Version control system](slides/ec_siip_02.pdf), [sw requirements & preparation](slides/ec_siip_00.pdf)
 2 | Sep 12 | Distributed version control systems, Git and C demo
 
