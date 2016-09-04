@@ -24,6 +24,6 @@ week   | date         | slide
 
 
 ## Links
-* [Visual Studio Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)
-* [Git](https://git-scm.com/downloads)
+* [Visual Studio Community](https://www.visualstudio.com/)
+* [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
