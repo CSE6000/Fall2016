@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()
+void mysqrt(double x)
 {
-    double x = 2.;
+
     double s = 1.;
 
     int maxiter = 100;
@@ -21,7 +21,13 @@ int main()
     }
     printf("After %d iterations, s = %20.15f\n", i, s);
 
-    printf("\nmysqrt(%f) = (%f)\n", x, s);
+}
+
+int main()
+{
+    double x = 2.;
+    mysqrt(x);
+    //    printf("\nmysqrt(%f) = (%f)\n", x, s);
 
     return 0;
 }
