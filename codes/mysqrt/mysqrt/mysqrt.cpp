@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void mysqrt(double x)
+double mysqrt(double x, bool debug = false)
 {
 
     double s = 1.;
@@ -11,7 +11,8 @@ void mysqrt(double x)
     int i = 0;
     for (i = 0; i < maxiter; i++)
     {
-        printf("Before iteration %d, s = %20.15f\n", i, s);
+        if (debug)
+            printf("Before iteration %d, s = %20.15f\n", i, s);
         double s0 = s;
         s = 0.5 * (s + x / s);
 
@@ -19,15 +20,17 @@ void mysqrt(double x)
         if (fabs(delta_s / x) < tol)
             break;
     }
-    printf("After %d iterations, s = %20.15f\n", i, s);
+    if (debug)
+        printf("After %d iterations, s = %20.15f\n", i, s);
 
+    return s;
 }
 
 int main()
 {
     double x = 2.;
-    mysqrt(x);
-    //    printf("\nmysqrt(%f) = (%f)\n", x, s);
+    double s = mysqrt(x, true);
+    printf("\nmysqrt(%f) = (%f)\n", x, s);
 
     return 0;
 }
