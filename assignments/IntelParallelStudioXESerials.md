@@ -1,4 +1,4 @@
-# Intel® Parallel Studio XE Cluster serials for CSE6000 Fall 2016
+﻿# Intel® Parallel Studio XE Cluster serials for CSE6000 Fall 2016
 
 Intel® Parallel Studio XE Cluster Edition for Windows
 
@@ -15,7 +15,7 @@ No.  | Serial        |  Name
    9 | 3***-******3L |
   10 | 3***-******46 |
   11 | 3***-******3K |
-  12 | 3***-******65 |
+  12 | 3***-******65 | 이윤정
   13 | 3***-******SL |
   14 | 3***-******L8 |
   15 | 3***-******PT |
