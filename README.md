@@ -43,15 +43,15 @@ Strategy
  - [sw requirements & preparation](slides/ec_siip_00.pdf)
 
 ### Class 2
- - Distributed version control systems
- - Git and C demo
+ - [Git and GitHub demo](slides/ec_siip_03.pdf)
+ - [C Demo, Newton's method](slides/ec_siip_04.pdf)
 
 ### Class 3
  - More demo of git and C
  - Computer architecture, cache, optimization,
 
 ### Class 4
- - Data type, function, pointer, Newton method
+ - Data type, function, pointer
  - Computer arithmetic, optimization flag
 
 ### Class 5
