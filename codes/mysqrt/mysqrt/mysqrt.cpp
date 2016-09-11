@@ -11,7 +11,7 @@ int main()
     int i = 0;
     for (i = 0; i < maxiter; i++)
     {
-        printf("Before iteration %d, s = %f\n", i, s);
+        printf("Before iteration %d, s = %20.15f\n", i, s);
         double s0 = s;
         s = 0.5 * (s + x / s);
 
@@ -19,7 +19,7 @@ int main()
         if (fabs(delta_s / x) < tol)
             break;
     }
-    printf("After %d iterations, s = %f\n", i, s);
+    printf("After %d iterations, s = %20.15f\n", i, s);
 
     printf("\nmysqrt(%f) = (%f)\n", x, s);
 
