@@ -142,7 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mymath.cpp" />
     <ClCompile Include="mysqrt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mymath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
