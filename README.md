@@ -2,7 +2,7 @@
 Class page for Embedded computing for scientific and industrial imaging applications
 
 - Course: CSE6000-01, Dept. of CSE, Yonsei University
-- Instructor: 이은정 (eunjunglee@yonsei.ac.kr), 양한별(yhbyhb@yonsei.ac.kr)
+- Instructor: Eunjung Lee (eunjunglee@yonsei.ac.kr), HanByul Yang(yhbyhb@yonsei.ac.kr)
 - ASTC 516, Mon 16:00 ~ 18:50
 
 ## Course Description
