@@ -1,4 +1,4 @@
-﻿# Intel® Parallel Studio XE Cluster serials for CSE6000 Fall 2016
+# Intel® Parallel Studio XE Cluster serials for CSE6000 Fall 2016
 
 Intel® Parallel Studio XE Cluster Edition for Windows
 
