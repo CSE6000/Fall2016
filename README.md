@@ -46,6 +46,7 @@ Strategy
 ### Class 2
  - [Git and GitHub demo](slides/ec_siip_03.pdf)
  - [C Demo, Newton's method](slides/ec_siip_04.pdf)
+ - [homework1](assignments/homework1/homework1.md)
 
 ### Class 3
  - More demo of git and C
