@@ -1,11 +1,11 @@
 
-# bash script to check for software 
+# bash script to check for software
 # Insert your name where indicated below.
-# Also insert your name where instructed in the file test3.f90.
+# Also insert your name where instructed in the file HelloWorld.c.
 # Then execute:
 #    $ bash test.sh
 # When it looks good, redirect output to a file:
-#    $ bash test.sh > test2output.txt
+#    $ bash test.sh > testOutput.txt
 
 echo 
 echo Code run by  **INSERT YOUR NAME HERE**
