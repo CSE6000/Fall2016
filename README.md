@@ -35,6 +35,7 @@ Strategy
 - Learn what’s out there to help select what’s best for your needs.
 
 ## Course Outline
+*Classes may not be given in order below.*
 
 ### Class 1
 
@@ -65,6 +66,9 @@ Strategy
 ### Class 7
  - Intel parallel studio XE, BLAS, LAPACK
  - Solving linear systems with MKL
+ 
+### Class 8
+ - OpenCV
 
 ## Links
  - [Visual Studio](https://www.visualstudio.com/)
