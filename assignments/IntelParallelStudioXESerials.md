@@ -4,7 +4,7 @@ Intel® Parallel Studio XE Cluster Edition for Windows
 
 No.  | Serial        |  Name
 ----:|:-------------:| :------
-   1 | 3***-******TP |
+   1 | 3***-******TP | 김도현
    2 | 3***-******K3 |
    3 | 3***-******MW | 양한별
    4 | 3***-******NM |
