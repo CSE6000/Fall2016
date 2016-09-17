@@ -25,7 +25,7 @@ If you don't get serial with this homework, you can get serial by yourself. Chec
 ## 1-2 Create private repository for assignments
  1. Create your own repository for assignments by following instruction that is sent to your YSCEC and e-mail.
 
- **Note** If you don't received anything, send e-mail to instructor (yhbyhb@(at)onsei.ac.kr)
+ **Note** If you don't received anything, send e-mail to instructor (yhbyhb@(at)yonsei.ac.kr)
  1. Create README.md and fill your information.
 
  ```
