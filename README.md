@@ -2,7 +2,7 @@
 Class page for Embedded computing for scientific and industrial imaging applications
 
 - Course: CSE6000-01, Dept. of CSE, Yonsei University
-- Instructor: Eunjung Lee (eunjunglee@yonsei.ac.kr), HanByul Yang(yhbyhb@yonsei.ac.kr)
+- Instructor: Eunjung Lee (eunjunglee(at)yonsei.ac.kr), HanByul Yang (yhbyhb@(at)onsei.ac.kr)
 - ASTC 516, Mon 16:00 ~ 18:50
 
 ## Course Description
@@ -41,7 +41,7 @@ Strategy
 
  - [Goal of course, overview, requirments](slides/ec_siip_01.pdf)
  - [Version control system](slides/ec_siip_02.pdf),
- - [sw requirements & preparation](slides/ec_siip_00.pdf)
+ - [SW requirements & preparation](slides/ec_siip_00.pdf)
 
 ### Class 2
  - [Git and GitHub demo](slides/ec_siip_03.pdf)
