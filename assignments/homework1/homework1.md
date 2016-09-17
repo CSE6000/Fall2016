@@ -1,5 +1,5 @@
 # Homework 1
-Due Monday, September 26, 2016, by 16:00 PM KST
+Due Monday, September 26, 2016, by 23:59 PM KST
 
 The goals of this homework are to :
 - Make sure you are familiar with basic shell command and tools.
@@ -8,11 +8,11 @@ The goals of this homework are to :
 - Make sure you have some necessary software installed.
 
 Before tackling this homework, you should read related class notes.
+- [SW requirements & preparation](slides/ec_siip_00.pdf)
+- [Git and GitHub demo](slides/ec_siip_03.pdf)
+- [C Demo, Newton's method](slides/ec_siip_04.pdf)
 
-By doing this homework you create a git repository containing some files that are graded.
-
-## 1-0 Create pull request
-*Refer class slide [Git and GitHub demo](slides/ec_siip_03.pdf).*
+## 1-1 Create pull request
  1. Fork class repository https://github.com/CSE6000/Fall2016
  1. Edit `/assignments/IntelParallelStudioXESerials.md` and add your name.
   * Check [master file](https://github.com/CSE6000/Fall2016/blob/master/assignments/IntelParallelStudioXESerials.md) and avoid duplication.
@@ -22,8 +22,25 @@ By doing this homework you create a git repository containing some files that ar
  1. If your pull request is valid, your commit will be merged.
 If you don't get serial with this homework, you can get serial by yourself. Check this [link](https://software.intel.com/en-us/qualify-for-free-software/student)
 
+## 1-2 Create private repository for assignments
+ 1. Create your own repository for assignments by following instruction that is sent to your YSCEC and e-mail.
 
-## 1-1 Check your environments
+ **Note** If you don't received anything, send e-mail to instructor (yhbyhb@(at)onsei.ac.kr)
+ 1. Create README.md and fill your information.
+
+ ```
+ # CSE6000 Fall2016 Assignments
+ Name : 
+ ID : 
+ email : 
+ ```
+
+ 1. Clone your private repository
+ ```
+ $ git clone https://github.com/CSE6000/YOUR_REPOSITORY.git
+ ```
+
+## 1-3 Check your environments
  1. Make sure you successfully installed "Git for Windows" by pressing windows key and typing "Git Bash".
  1. You can find your git version by typing
 
@@ -39,7 +56,6 @@ If you don't get serial with this homework, you can get serial by yourself. Chec
  $ git clone https://github.com/CSE6000/Fall2016.git
  ```
 
- 1. Create your own repository with "[Creating assignment link]()"(*WILL BE AVALIABLE SOON*)
  1. Copy homework1 files from class repository to your own repository.
   * `/assignments/homework1/HelloWorld.c`
   * `/assignments/homework1/test.sh`
@@ -53,6 +69,7 @@ If you don't get serial with this homework, you can get serial by yourself. Chec
  This should give output like below:
  ```
  Code run by **INSERT YOUR NAME HERE** 
+ 
 
  which git returns...
  /mingw64/bin/git 
@@ -98,10 +115,21 @@ If you don't get serial with this homework, you can get serial by yourself. Chec
  1. Make sure the copies you want graded have been committed, and then push them to GitHub via:
 
  ```
- $ cd  *YOUR_REPO*/
+ $ cd $YOUR_REPO
  $ git push
  ```
- These files should then also be visible from your GitHub webpage, by clicking on the **Code** tab
+ These files should then also be visible from your GitHub repository, by clicking on the **Code** tab
+
+## 1-4 Tag your homework
+ 1. When you have done your homework, tag a commit as 'homework1' to make sure which commit is your final submission.
+
+ ```
+ git tag homework1
+ ```
+ 1. You should also push your tag to your GitHub repository by `git push origin --tags`
+ 1. Checkout links below for further informations.
+  - [Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+  - [Create a tag in GitHub repository](http://stackoverflow.com/questions/18216991/create-a-tag-in-github-repository)
 
 **Note**: You can commit to your repository and push changes to your GitHub repository as often as you want before the submission, and you are encouraged to get in the habit of committing changes often as you develop code – that’s the whole point of using version control!
 
