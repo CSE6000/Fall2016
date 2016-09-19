@@ -103,7 +103,7 @@ If you don't get serial with this homework, you can get serial by yourself. Chec
  ```
  $ bash test.sh > testOutput.txt
  ```
- 1. Add and commit modified `test.sh` and `testOutput.txt` to your repository.
+ 1. Add and commit modified `test.sh`, `HelloWorld.c` and `testOutput.txt` to your repository.
 
  **Note** : At the end you should have the following files committed to your repository:
   * `/assignments/homework1/HelloWorld.c`
