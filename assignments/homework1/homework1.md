@@ -30,9 +30,9 @@ If you don't get serial with this homework, you can get serial by yourself. Chec
 
  ```
  # CSE6000 Fall2016 Assignments
- Name : 
- ID : 
- email : 
+ - Name : 
+ - ID : 
+ - email : 
  ```
 
  1. Clone your private repository
