@@ -49,11 +49,12 @@ Strategy
  - [homework1](assignments/homework1/homework1.md)
 
 ### Class 3
- - More demo of git and C
- - Computer architecture, cache, optimization,
+ - [Visual studio, Newton's method, Binary storage, floating point number](slides/ec_siip_05.pdf)
+ - [C, data type, function, array, pointer](slides/ec_siip_06.pdf)
+ - [Computer architecture, cache, optimization](slides/ec_siip_07.pdf)
 
 ### Class 4
- - Data type, function, pointer
+ - OpenCV
  - Computer arithmetic, optimization flag
 
 ### Class 5
@@ -67,9 +68,7 @@ Strategy
 ### Class 7
  - Intel parallel studio XE, BLAS, LAPACK
  - Solving linear systems with MKL
- 
-### Class 8
- - OpenCV
+
 
 ## Links
  - [Visual Studio](https://www.visualstudio.com/)
