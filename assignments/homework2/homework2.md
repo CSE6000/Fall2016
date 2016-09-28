@@ -49,9 +49,7 @@ Before tackling this homework, you should read related class notes and sample co
  x = 1.570796, iter =  4,    0.924832229288650
  x = 1.570796, iter =  5,    1.004524855534817
  ```
-
- **Hint**: You might find it convenient to have a variable *term* that is updated as for the exponential function but then is multiplied by a *s* before adding in to the partial sum, where *s* takes the appropriate value $+1,~-1,$ or 0 depending on *j*
-
+ 
  1. See what happens if you call your function *myexp* and *mysin* with negative values of *n*, of with non-integer real numbers. Add some input-checking to each function so that a non-negative integer value of *n* is required. If an invalid value is detected, print an error message and return the special value **NAN**. For example
 
  code snippet
