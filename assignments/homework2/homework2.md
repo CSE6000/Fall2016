@@ -6,7 +6,7 @@ The goals of this homework are to :
 
 Before tackling this homework, you should read related class notes and sample codes.
 - [C Demo, Newton's method](slides/ec_siip_04.pdf)
-- [mysqrt](codes\mysqrt)
+- [mysqrt](https://github.com/CSE6000/Fall2016/tree/master/codes/mysqrt)
 
 **NOTE** Use [Chrome extension : GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) for LaTeX equations in GitHub repositories. 
 
