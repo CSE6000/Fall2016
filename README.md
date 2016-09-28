@@ -51,10 +51,11 @@ Strategy
 ### Class 3
  - [Visual studio, Newton's method, Binary storage, floating point number](slides/ec_siip_05.pdf)
  - [C, data type, function, array, pointer](slides/ec_siip_06.pdf)
- - [Computer architecture, cache, optimization](slides/ec_siip_07.pdf)
+ - [homework2](assignments/homework2/homework2.md)
 
 ### Class 4
  - OpenCV
+ - [Computer architecture, cache, optimization](slides/ec_siip_07.pdf)
  - Computer arithmetic, optimization flag
 
 ### Class 5
