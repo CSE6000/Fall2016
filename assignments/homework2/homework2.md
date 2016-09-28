@@ -4,8 +4,11 @@ Due Monday, October 10, 2016, by 23:59 PM KST
 The goals of this homework are to :
 - Get some experience with visual studio and C
 
-Before tackling this homework, you should read related class notes.
+Before tackling this homework, you should read related class notes and sample codes.
 - [C Demo, Newton's method](slides/ec_siip_04.pdf)
+- [mysqrt](codes\mysqrt)
+
+**NOTE** Use [Chrome extension : GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) for LaTeX equations in GitHub repositories. 
 
 ## Taylor series approximation
 *link : https://en.wikipedia.org/wiki/Taylor_series*
@@ -25,41 +28,55 @@ Before tackling this homework, you should read related class notes.
 
  If you have done this properly, you should be able to do, for example
  ```
+ x = 1.000000, iter =  0,    1.000000000000000
+ x = 1.000000, iter =  1,    2.000000000000000
+ x = 1.000000, iter =  2,    2.500000000000000
+ x = 1.000000, iter = 20,    2.718281828459046
  ```
 
  **Hint**: Note that term of degree *j* in the series can be computed from the previous therm by multiplying by *x* and dividing by *j*. if you use this trick you won't need the factorial function. See [Fortran examples: Taylor series](http://faculty.washington.edu/rjl/classes/am583s2014/notes/fortran_taylor.html#fortran-taylor) for an example of this same idea used in a Fortran version.
 
- 1. Add some debugging statements to your function, with an optional argument *debug* with the default value *false*(so the examples above still give the same output) but so that setting *debug=true* causes output similar to below:
- ```
- ```
  1. Create function *double mysin(double x, int n)* in *TaylorMath.c" that approximates the sine function at a point *x* by evaluating the Taylor series approximation of degree *n*. Use the Taylor series expansion about $x_0=0$, also known as the Maclaurin series:
+
  $\sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots$
- Note that the degree 5 and 6 approximations only have three nonzero terms, the degree 7 and 8 approximations have four nonzero terms, etc.
+ 
+ Note that the degrTayloree 5 and 6 approximations only have three nonzero terms, the degree 7 and 8 approximations have four nonzero terms, etc.
 
  You should get results like:
  ```
+ x = 1.570796, iter =  2,    1.570796326794897
+ x = 1.570796, iter =  3,    0.924832229288650
+ x = 1.570796, iter =  4,    0.924832229288650
+ x = 1.570796, iter =  5,    1.004524855534817
  ```
-
- Add a debug option as in *myexp*
 
  **Hint**: You might find it convenient to have a variable *term* that is updated as for the exponential function but then is multiplied by a *s* before adding in to the partial sum, where *s* takes the appropriate value $+1,~-1,$ or 0 depending on *j*
 
- 1. See what happens if you call your function *myexp* and *mysin* with negative values of *n*, of with non-integer real numbers. Add some input-checking to each function so that a non-negative integer value of *n* is required. If an invsalid value is detected, print an error message and return the special value **NAN**. For example
- ```
+ 1. See what happens if you call your function *myexp* and *mysin* with negative values of *n*, of with non-integer real numbers. Add some input-checking to each function so that a non-negative integer value of *n* is required. If an invalid value is detected, print an error message and return the special value **NAN**. For example
+
+ code snippet
+ ```c
+ x = 1.0; iter = -5;
+ printf("x = %f, iter = %2d, %f\n", x, iter, myexp(x, iter));
  ```
 
+ output
+ ```
+ Invalid input. iteration must be non-negative integer
+ x = 1.000000, iter = -5, -nan(ind)
+ ``` 
 
 ## Submission
  - At the end you should have the following files committed to your repository:
   * `/assignments/homework2/Taylor/Taylor.sln`
-  * `/assignments/homework2/Taylor/Taylor/Taylor.vcxproj`
+  * `/assignments/homework2/Taylor/Taylor/.vcxproj`
   * `/assignments/homework2/Taylor/Taylor/Taylor.vcxproj.filters`
   * `/assignments/homework2/Taylor/Taylor/TaylorMain.c`
   * `/assignments/homework2/Taylor/Taylor/TaylorMath.c`
   * `/assignments/homework2/Taylor/Taylor/TaylorMath.h`
 
  
- Do not add other files such as `HelloWorld.exe`, which was created when the c code was compiled.
+ Do not add other files such as `Taylor.exe`, which was created when the c code was compiled.
 
  - Tag the commit number that you want graded. If you submit the wrong thing or make further changes to your work before the due date, you can delete old tag and re-tag to new commit.
 
