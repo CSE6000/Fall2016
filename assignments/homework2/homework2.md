@@ -8,9 +8,34 @@ Before tackling this homework, you should read related class notes and sample co
 - [C Demo, Newton's method](slides/ec_siip_04.pdf)
 - [mysqrt](https://github.com/CSE6000/Fall2016/tree/master/codes/mysqrt)
 
-**NOTE** Use [Chrome extension : GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) for LaTeX equations in GitHub repositories. 
+**NOTE** Use [Chrome extension : GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) for LaTeX equations in [GitHub markdown](https://guides.github.com/features/mastering-markdown/).
+## 2-1 ```.gitignore```
+ Add ```.gitignore``` file to root directory of your git repository.
+ 1. Clone [GitHub’s collection of .gitignore file templates](https://github.com/github/gitignore)
+ ```
+ $ git clone https://github.com/github/gitignore
+ ```
 
-## Taylor series approximation
+ 1. Change directory to gitignore and checkout ```b87e474``` commit
+ ```
+ $ cd gitignore
+ $ git checkout b87e474
+ ```
+
+ 1. Copy ```VisualStudio.gitignore``` to your repository with name ```.gitignore```
+ ```
+ $ cp VisualStudio.gitignore {YOUR_REPO}/.gitignore
+ ```
+
+ 1. Add and commit to your git repository
+ ```
+ $ git add .gitignore
+ $ git commit -m "Added .gitignore"
+ ```
+
+ **NOTE** Make sure your ```.gitignore``` file same as [b87e474](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
+
+## 2-2 Taylor series approximation
 *link : https://en.wikipedia.org/wiki/Taylor_series*
  1. You should create a new subdirectory *homework2* (of the same private repository you have used for *homework1*). Develop your code for the problems below in this directory and feel free to commit as often as you like, it will help you recover fro blunders.
 
@@ -39,7 +64,7 @@ Before tackling this homework, you should read related class notes and sample co
  1. Create function *double mysin(double x, int n)* in *TaylorMath.c" that approximates the sine function at a point *x* by evaluating the Taylor series approximation of degree *n*. Use the Taylor series expansion about $x_0=0$, also known as the Maclaurin series:
 
  $\sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots$
- 
+
  Note that the degrTayloree 5 and 6 approximations only have three nonzero terms, the degree 7 and 8 approximations have four nonzero terms, etc.
 
  You should get results like:
@@ -49,7 +74,7 @@ Before tackling this homework, you should read related class notes and sample co
  x = 1.570796, iter =  4,    0.924832229288650
  x = 1.570796, iter =  5,    1.004524855534817
  ```
- 
+
  1. See what happens if you call your function *myexp* and *mysin* with negative values of *n* (less than 0). Add some input-checking to each function so that a non-negative integer value of *n* is required. If an invalid value is detected, print an error message and return the special value **NAN**. For example
 
  code snippet
@@ -64,7 +89,7 @@ Before tackling this homework, you should read related class notes and sample co
  x = 1.000000, iter = -5, -nan(ind)
  ``` 
 
-## Submission
+## 2-3 Submission
  - At the end you should have the following files committed to your repository:
   * `/assignments/homework2/Taylor/Taylor.sln`
   * `/assignments/homework2/Taylor/Taylor/.vcxproj`
@@ -73,8 +98,8 @@ Before tackling this homework, you should read related class notes and sample co
   * `/assignments/homework2/Taylor/Taylor/TaylorMath.c`
   * `/assignments/homework2/Taylor/Taylor/TaylorMath.h`
 
- 
  Do not add other files such as `Taylor.exe`, which was created when the c code was compiled.
 
- - Tag the commit number that you want graded. If you submit the wrong thing or make further changes to your work before the due date, you can delete old tag and re-tag to new commit.
+## 2-4 Tag your homework
+ - Tag the commit as 'homework2' that you want graded. If you submit the wrong thing or make further changes to your work before the due date, you can delete old tag and re-tag to new commit.
 
