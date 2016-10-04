@@ -1,5 +1,5 @@
 # Homework 2
-Due Monday, October 10, 2016, by 23:59 PM KST
+Due Monday, October 12, 2016, by 23:59 PM KST
 
 The goals of this homework are to :
 - Get some experience with visual studio and C
@@ -108,6 +108,8 @@ Before tackling this homework, you should read related class notes and sample co
   * `/assignments/homework2/output2.txt`
 
  Do not add other files such as `Taylor.exe`, which was created when the c code was compiled.
+
+ **NOTE** You should follow the file path listed above.
 
 ## 2-4 Tag your homework
  - Tag the commit as 'homework2' that you want graded. If you submit the wrong thing or make further changes to your work before the due date, you can delete old tag and re-tag to new commit.
