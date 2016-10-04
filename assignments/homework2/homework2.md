@@ -87,7 +87,14 @@ Before tackling this homework, you should read related class notes and sample co
  ```
  Invalid input. iteration must be non-negative integer
  x = 1.000000, iter = -5, -nan(ind)
- ``` 
+ ```
+
+ 1. Run and make two result files by uncomment of `printf()` lines of given `TaylorMain.c`.
+ ```
+ $ $(BUILD_PATH)./Taylor.exe > output1.txt
+ $ $(BUILD_PATH)./Taylor.exe output > output2.txt
+ ```
+ 1. Copy `output1.txt` and `output2.txt` to your homework2 directory and `git add` and `git commit`.
 
 ## 2-3 Submission
  - At the end you should have the following files committed to your repository:
@@ -97,6 +104,8 @@ Before tackling this homework, you should read related class notes and sample co
   * `/assignments/homework2/Taylor/Taylor/TaylorMain.c`
   * `/assignments/homework2/Taylor/Taylor/TaylorMath.c`
   * `/assignments/homework2/Taylor/Taylor/TaylorMath.h`
+  * `/assignments/homework2/output1.txt`
+  * `/assignments/homework2/output2.txt`
 
  Do not add other files such as `Taylor.exe`, which was created when the c code was compiled.
 
