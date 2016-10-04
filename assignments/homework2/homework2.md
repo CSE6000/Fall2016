@@ -50,7 +50,7 @@ Before tackling this homework, you should read related class notes and sample co
  x = 1.570796, iter =  5,    1.004524855534817
  ```
  
- 1. See what happens if you call your function *myexp* and *mysin* with negative values of *n*, of with non-integer real numbers. Add some input-checking to each function so that a non-negative integer value of *n* is required. If an invalid value is detected, print an error message and return the special value **NAN**. For example
+ 1. See what happens if you call your function *myexp* and *mysin* with negative values of *n* (less than 0). Add some input-checking to each function so that a non-negative integer value of *n* is required. If an invalid value is detected, print an error message and return the special value **NAN**. For example
 
  code snippet
  ```c
