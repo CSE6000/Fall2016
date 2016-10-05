@@ -65,7 +65,7 @@ Before tackling this homework, you should read related class notes and sample co
 
  $\sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots$
 
- Note that the degrTayloree 5 and 6 approximations only have three nonzero terms, the degree 7 and 8 approximations have four nonzero terms, etc.
+ Note that the Taylor degree 5 and 6 approximations only have three nonzero terms, the degree 7 and 8 approximations have four nonzero terms, etc.
 
  You should get results like:
  ```
