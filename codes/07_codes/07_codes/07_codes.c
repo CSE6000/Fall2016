@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <mkl.h>
 
+#define LOOP_COUNT 10
 
 int main()
 {
 	int i;
 	int j;
+	double s_initial, s_elapsed;
+
 	double z = 0.0;
 	double w = 0.0;
 	double* pX;
@@ -19,23 +23,37 @@ int main()
 	
 	//Temporal locality
 	//Case 1
-	for (i = 0; i < length; i++)
+	s_initial = dsecnd();
+	for (int t = 0; t < LOOP_COUNT; t++)
 	{
-		z = z + pX[i];
+		for (i = 0; i < length; i++)
+		{
+			z = z + pX[i];
+		}
+		for (i = 0; i < length; i++)
+		{
+			w = w + 3.0 * pX[i];
+		}
 	}
-	for (i = 0; i < length; i++)
-	{
-		w = w + 3.0 * pX[i];
-	}
+	s_elapsed = (dsecnd() - s_initial) / LOOP_COUNT;
+	printf(" == Temporal locality Case 1 == \n"
+		" == %.5f milliseconds == \n\n", (s_elapsed * 1000));
 
 	//Case 2
 	z = 0.0;
 	w = 0.0;
-	for (i = 0; i < length; i++)
+	s_initial = dsecnd();
+	for (int t = 0; t < LOOP_COUNT; t++)
 	{
-		z = z + pX[i];
-		w = w + 3.0 * pX[i];
+		for (i = 0; i < length; i++)
+		{
+			z = z + pX[i];
+			w = w + 3.0 * pX[i];
+		}
 	}
+	s_elapsed = (dsecnd() - s_initial) / LOOP_COUNT;
+	printf(" == Temporal locality Case 2 == \n"
+		" == %.5f milliseconds == \n\n", (s_elapsed * 1000));
 
 	free(pX);
 
@@ -68,14 +86,20 @@ int main()
 	}
 
 	//Case 1
-	for (i = 0; i < n; i++)
+	s_initial = dsecnd();
+	for (int t = 0; t < LOOP_COUNT; t++)
 	{
-		for (j = 0; j < n; j++)
+		for (i = 0; i < n; i++)
 		{
-			b[i][j] = d[i] * a[i][j];
+			for (j = 0; j < n; j++)
+			{
+				b[i][j] = d[i] * a[i][j];
+			}
 		}
 	}
-
+	s_elapsed = (dsecnd() - s_initial) / LOOP_COUNT;
+	printf(" == Spatial locality Case 1 == \n"
+		" == %.5f milliseconds == \n\n", (s_elapsed * 1000));
 
 	for (i = 0; i < n; i++)
 	{
@@ -86,13 +110,20 @@ int main()
 	}
 
 	//Case 2
-	for (j = 0; j < n; j++)
+	s_initial = dsecnd();
+	for (int t = 0; t < LOOP_COUNT; t++)
 	{
-		for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
 		{
-			b[i][j] = d[i] * a[i][j];
+			for (i = 0; i < n; i++)
+			{
+				b[i][j] = d[i] * a[i][j];
+			}
 		}
 	}
+	s_elapsed = (dsecnd() - s_initial) / LOOP_COUNT;
+	printf(" == Spatial locality Case 2 == \n"
+		" == %.5f milliseconds == \n\n", (s_elapsed * 1000));
 
 	for (i = 0; i < n; i++)
 	{
