@@ -1,5 +1,5 @@
 # Homework 2
-Due Monday, October 12, 2016, by 23:59 PM KST
+Due Wednesday, October 12, 2016, by 23:59 PM KST
 
 The goals of this homework are to :
 - Get some experience with visual studio and C
