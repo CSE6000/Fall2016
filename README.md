@@ -54,9 +54,9 @@ Strategy
  - [homework2](assignments/homework2/homework2.md)
 
 ### Class 4
- - OpenCV
  - [Computer architecture, cache, optimization](slides/ec_siip_07.pdf)
- - Computer arithmetic, optimization flag
+ - [Computer arithmetic, optimization flag](slides/ec_siip_08.pdf)
+ - [Intro to OpenCV](slides/ec_siip_09.pdf)
 
 ### Class 5
  - Parallel computing, Amdahl’s law,
