@@ -34,6 +34,10 @@ Strategy
 - Focusing hands-on experience.
 - Learn what’s out there to help select what’s best for your needs.
 
+## Grading
+- 3 homeworks
+- 1 project presentation
+
 ## Course Outline
 *Classes may not be given in order below.*
 
