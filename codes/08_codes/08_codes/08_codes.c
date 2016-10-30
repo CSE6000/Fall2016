@@ -18,7 +18,7 @@ int main()
 
 	printf("pi = %.16f\n", M_PI);
 	y = M_PI * 1.e-10;
-	printf("y = %e\n", y);
+	printf("y = %.16e\n", y);
 
 	double z = 1.0 + y;
 	printf("z = %.16f\n", z);
