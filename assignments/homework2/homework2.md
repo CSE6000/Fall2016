@@ -99,7 +99,7 @@ Before tackling this homework, you should read related class notes and sample co
 ## 2-3 Submission
  - At the end you should have the following files committed to your repository:
   * `/assignments/homework2/Taylor/Taylor.sln`
-  * `/assignments/homework2/Taylor/Taylor/.vcxproj`
+  * `/assignments/homework2/Taylor/Taylor/Taylor.vcxproj`
   * `/assignments/homework2/Taylor/Taylor/Taylor.vcxproj.filters`
   * `/assignments/homework2/Taylor/Taylor/TaylorMain.c`
   * `/assignments/homework2/Taylor/Taylor/TaylorMath.c`
