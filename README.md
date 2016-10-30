@@ -42,7 +42,6 @@ Strategy
 *Classes may not be given in order below.*
 
 ### Class 1
-
  - [Goal of course, overview, requirments](slides/ec_siip_01.pdf)
  - [Version control system](slides/ec_siip_02.pdf),
  - [SW requirements & preparation](slides/ec_siip_00.pdf)
@@ -63,16 +62,17 @@ Strategy
  - [Intro to OpenCV](slides/ec_siip_09.pdf)
 
 ### Class 5
+ - [Affine transformation](slides/ec_siip_10.pdf)
+ - [BLAS and LAPACK](slides/ec_siip_11.pdf)
+ - [Solving linear systems with MKL](slides/ec_siip_12.pdf)
+
+### Class 6
  - Parallel computing, Amdahl’s law,
  - OpenMP : critical sections, parallel do loops
 
-### Class 6
+### Class 7
  - OpenMP : loop dependencies, threadsafe, directives
  - Fine grain vs coarse grain. Demo of OpenMP
-
-### Class 7
- - Intel parallel studio XE, BLAS, LAPACK
- - Solving linear systems with MKL
 
 
 ## Links
