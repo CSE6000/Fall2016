@@ -74,7 +74,7 @@ Pivot indices
 */
 #include <stdlib.h>
 #include <stdio.h>
-#include "mkl_lapacke.h"
+#include "mkl.h"
 
 /* Auxiliary routines prototypes */
 extern void print_matrix(char* desc, MKL_INT m, MKL_INT n, double* a, MKL_INT lda);
