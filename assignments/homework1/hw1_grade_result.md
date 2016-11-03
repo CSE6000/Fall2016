@@ -1,18 +1,18 @@
-| Name | hw1_1 | hw1_2 | hw1_3_1 | hw_1_3_2 | hw1_4 | note |
-| ---- | ----- | ----- | ------- | -------- | ----- | ---- |
-| Bukweon Kim  | 1| 1 | 1 | 1 | 0 | 
-| Jiyeon       | 1| 1 | 0 | 0 | 1 | No directory : /assignments/homwork1/ |
-| Dongeun Kim  | 1| 1 | 0 | 0 | 0 | No directory : /assignments/homwork1/ |
-| "Dohyun Kim" | 1| 1 | 0 | 0 | 1 | No directory : /assignments/homwork1/ |
-| 김영수          | 1| 1 | 1 | 1 | 0 | 
-| Hwapyung Kim | 1 | 1 | 0 | 0 | 1 | No directory : /assignments/homwork1/ |
-| 황현태          | 0| 1 | 1 | 1 | 1 | 
-| Junyoung Jang| 1 | 1 | 1 | 1 | 1 | 
-| Heonkyu Ha   | 1 | 1 | 0 | 0 | 1 | No directory : /assignments/homwork1/ |
-| Lee Sungmin  | 1 | 1 | 0 | 0 | 1 | No directory : /assignments/homwork1/ |
-| 이시복          | 1| 1 | 0 | 0 | 1 | 
-| 이승리          | 1| 1 | 0 | 0 | 1 | No directory : /assignments/homwork1/ |
-| Son Seung Bae| 1 | 1 | 1 | 1 | 1 | 
-| WonJoon Choi | 0 | 1 | 0 | 0 | 0 | No directory : /assignments/homwork1/ |
-| Yoon-gu Hwang| 1 | 1 | 1 | 1 | 1 | 
-| Yunjeong Lee | 1 | 1 | 1 | 1 | 1 | 
+| Name | hw1_1 | hw1_2 | hw1_3_1 | hw_1_3_2 | hw1_4 | penalty | total | note |
+| ---- | ----- | ----- | ------- | -------- | ----- | ------- | ----- | ---- |
+| 김부권 | 1 | 1 | 1 | 1 | 1 | -0.5   | 4.5 |  |
+| 서지연 | 1 | 1 | 1 | 1 | 1 | -0.5 * 2 | 4 |  |
+| Dongeun Kim | 1| 1 | 0 | 0 | 0 |   |  2 | No directory : /assignments/homwork1/ |
+| 김도현 | 1 | 1 | 1 | 1 | 1 | -0.5 * 2 | 4 |  |
+| 김영수 | 1 | 1 | 1 | 1 | 0 |   | 4 |   |
+| 김화평 | 1 | 1 | 1 | 1 | 1 | -0.5 * 2 | 4 |  |
+| 황현태 | 0 | 1 | 1 | 1 | 1 |   | 4 |   |
+| 장준영 | 1 | 1 | 1 | 1 | 1 |   | 5 |   |
+| 하헌규 | 1 | 1 | 1 | 1 | 1 | -0.5 * 2 | 4 |  |
+| 이성민 | 1 | 1 | 1 | 1 | 1 | -0.5 * 2 | 4 |  |
+| 이시복 | 1 | 1 | 1 | 1 | 1 | -0.5 * 2 | 4 |  |
+| 이승리 | 1 | 1 | 1 | 1 | 1 | -0.5 * 2 | 4 |  |
+| Son Seung Bae | 1 | 1 | 1 | 1 | 1 |   | 5 |   |
+| WonJoon Choi | 0 | 1 | 1 | 1 | 1 | -0.5 * 3 | 2.5 | |
+| 황윤구 | 1 | 1 | 1 | 1 | 1 |   | 5 |   |
+| 이윤정 | 1 | 1 | 1 | 1 | 1 |   | 5 |   |
