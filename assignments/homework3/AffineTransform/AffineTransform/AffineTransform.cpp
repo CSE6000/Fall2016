@@ -25,7 +25,6 @@ int main(int argc, char** argv)
 	Point2f srcTri[3];
 	Point2f dstTri[3];
 
-	Mat rot_mat(2, 3, CV_32FC1);
 	Mat warp_mat(2, 3, CV_32FC1);
 	Mat src, warp_dst;
 
