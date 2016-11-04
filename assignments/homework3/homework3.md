@@ -16,16 +16,35 @@ Please read carefully and follow instructions especially penalty.
  ```
  warp_mat = //..... //;
  ``` 
-   **NOTE** DO NOT CHANGE NAME OF VARIABLES such as srcTri, dstTri and warp_mat.
+   **NOTE** DO NOT CHANGE NAME OF VARIABLES such as `srcTri`, `dstTri` and `warp_mat`.
 
  - Apply the Affine Transform just found to the src image with [warpAffine()](http://docs.opencv.org/3.1.0/da/d54/group__imgproc__transform.html#ga0203d9ee5fcd28d40dbc4a1ea4451983)
  ```
  warpAffine(//......//);
  ```
-   **NOTE** DO NOT CHANGE NAME OF VARIABLES such as src, warp_dst and warp_mat.
+   **NOTE** DO NOT CHANGE NAME OF VARIABLES such as `src`, `warp_dst` and `warp_mat`.
+
+- Print `srcTri`, `dstTri` and `warp_mat`.
+```
+cout << "srcTri = " << endl << " " << srcTri[0] << endl << " " << srcTri[1] << endl << " " << srcTri[2] << endl << endl;
+cout << "dstTri = " << endl << " " << dstTri[0] << endl << " " << dstTri[1] << endl << " " << dstTri[2] << endl << endl;
+cout << "warp_mat = " << endl << " " << warp_mat << endl << endl;
+```
+  **NOTE** DO NOT CHANGE CODES ABOVE
 
 ## 3-2 Affine warp with LAPACK (3pt)
- - 
+ - Use LAPACK(Intel MKL), find affine warp that is same as result of OpenCV. It is 3 x 3 matrix and has [0 0 1] row vector.
+ ```
+ mkl_warp_mat =
+ [a_1, b_1, t_1;
+  a_2, b_2, t_2;
+    0,   0,   1]
+ ```
+ - Print `mkl_warp_mat`.
+ ```
+ cout << "mkl_warp_mat = " << endl << " " << mkl_warp_mat << endl << endl;
+ ```
+   **NOTE** DO NOT CHANGE CODES ABOVE
 
 ## 3-3 Submission (1pt)
  - At the end you should have the following files committed to your repository:
