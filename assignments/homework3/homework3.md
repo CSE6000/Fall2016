@@ -34,6 +34,7 @@ cout << "warp_mat = " << endl << " " << warp_mat << endl << endl;
 
 ## 3-2 Affine warp with LAPACK (3pt)
  - Use LAPACK(Intel MKL), find affine warp that is same as result of OpenCV. It is 3 x 3 matrix and has [0 0 1] row vector.
+
  ```
  mkl_warp_mat =
  [a_1, b_1, t_1;
@@ -41,6 +42,7 @@ cout << "warp_mat = " << endl << " " << warp_mat << endl << endl;
     0,   0,   1]
  ```
  - Print `mkl_warp_mat`.
+
  ```
  cout << "mkl_warp_mat = " << endl << " " << mkl_warp_mat << endl << endl;
  ```
@@ -50,13 +52,14 @@ cout << "warp_mat = " << endl << " " << warp_mat << endl << endl;
  - At the end you should have the following files committed to your repository:
   * `/assignments/homework3/output.txt`
   * `/assignments/homework3/AffineTransformation/AffineTransform.sln`
-  * `/assignments/homework3/AffineTransformation/AffineTransform/AffineTransform.cpp`  
+  * `/assignments/homework3/AffineTransformation/AffineTransform/AffineTransform.cpp`
   * `/assignments/homework3/AffineTransformation/AffineTransform/AffineTransform.vcxproj`
   * `/assignments/homework3/AffineTransformation/AffineTransform/AffineTransform.vcxproj.filters`
   * `/assignments/homework3/AffineTransformation/AffineTransform/HappyFish.jpg`
 
- **NOTE** Do not add other files such as `AffineTransform.exe`, which are created when the c code was compiled. Penalty will be -0.1 * number of files which are unnecessary. 
- **NOTE** You should follow the file path listed above. Penalty will be 0.5 * points of (3-1 and 3-2). 
+ **NOTE** Do not add other files such as `AffineTransform.exe`, which are created when the c code was compiled. Penalty will be -0.1 * number of files which are unnecessary.
+
+ **NOTE** You should follow the file path listed above. Penalty will be 0.5 * points of (3-1 and 3-2).
 
 ## 3-4 Tag your homework (1pt)
  - Tag the commit as 'homework3' that you want graded. If you submit the wrong thing or make further changes to your work before the due date, you can delete old tag and re-tag to new commit.
