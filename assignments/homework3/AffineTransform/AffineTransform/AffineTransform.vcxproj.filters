@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GeometricTransforms.cpp">
+    <ClCompile Include="AffineTransform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

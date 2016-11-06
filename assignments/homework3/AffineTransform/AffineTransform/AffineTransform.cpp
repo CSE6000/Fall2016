@@ -7,6 +7,7 @@
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
+#include <mkl.h>
 #include <iostream>
 #include <stdio.h>
 
@@ -25,7 +26,6 @@ int main(int argc, char** argv)
 	Point2f srcTri[3];
 	Point2f dstTri[3];
 
-	Mat rot_mat(2, 3, CV_32FC1);
 	Mat warp_mat(2, 3, CV_32FC1);
 	Mat src, warp_dst;
 
@@ -40,9 +40,9 @@ int main(int argc, char** argv)
 	srcTri[1] = Point2f(src.cols - 1.f, 0);
 	srcTri[2] = Point2f(0, src.rows - 1.f);
 
-	dstTri[0] = Point2f(src.cols*0.0f, src.rows*0.33f);
-	dstTri[1] = Point2f(src.cols*0.85f, src.rows*0.25f);
-	dstTri[2] = Point2f(src.cols*0.15f, src.rows*0.7f);
+	dstTri[0] = Point2f(src.cols * 0.00f, src.rows * 0.33f);
+	dstTri[1] = Point2f(src.cols * 0.85f, src.rows * 0.25f);
+	dstTri[2] = Point2f(src.cols * 0.15f, src.rows * 0.70f);
 
 	/// Get the Affine Transform warp with getAffineTransform()
 	//warp_mat = 
@@ -52,15 +52,16 @@ int main(int argc, char** argv)
 	cout << "warp_mat = " << endl << " " << warp_mat << endl << endl;
 
 	/// Apply the Affine Transform just found to the src image with warpAffine()
-	// Get warped image "warp_dst" 
-
-	float *pA;	//src points
-	float *pX;  //warp matrix
-	float *pB;  //dst points
+	// Get warped image "warp_dst"
 
 	/// Get the Affine Transform warp with Intel MKL
+	Mat mkl_warp_mat = Mat(3, 3, CV_32FC1);
+	float *P;  //src points
+	float *T;  //warp matrix
+	float *Q;  //dst points
 
-	/// Print out affine warp and compare with result of OpenCV
+	/// Print out affine warp and compare with result of OpenCV	
+	cout << "mkl_warp_mat = " << endl << " " << mkl_warp_mat << endl << endl;
 
 	if (argc > 1)
 	{
