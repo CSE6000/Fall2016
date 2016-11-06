@@ -65,6 +65,7 @@ Strategy
  - [Affine transformation](slides/ec_siip_10.pdf)
  - [BLAS and LAPACK](slides/ec_siip_11.pdf)
  - [Solving linear systems with MKL](slides/ec_siip_12.pdf)
+ - [homework3](assignments/homework3/homework3.md)
 
 ### Class 6
  - [Parallel computing, Amdahl’s law](slides/ec_siip_13.pdf)
