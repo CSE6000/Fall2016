@@ -68,7 +68,7 @@ Strategy
 
 ### Class 6
  - [Parallel computing, Amdahl’s law](slides/ec_siip_13.pdf)
- - [OpenMP : critical sections, parallel do loops](slides/ec_siip_14.pdf)
+ - [OpenMP : critical sections, parallel for loops](slides/ec_siip_14.pdf)
 
 ### Class 7
  - OpenMP : loop dependencies, threadsafe, directives
