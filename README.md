@@ -2,7 +2,7 @@
 Class page for Embedded computing for scientific and industrial imaging applications
 
 - Course: CSE6000-01, Dept. of CSE, Yonsei University
-- Instructor: Eunjung Lee (eunjunglee(at)yonsei.ac.kr), HanByul Yang (yhbyhb@(at)onsei.ac.kr)
+- Instructor: Eunjung Lee (eunjunglee(at)yonsei.ac.kr), HanByul Yang (yhbyhb@(at)yonsei.ac.kr)
 - ASTC 516, Mon 16:00 ~ 18:50
 
 ## Course Description
@@ -42,7 +42,7 @@ Strategy
 *Classes may not be given in order below.*
 
 ### Class 1
- - [Goal of course, overview, requirments](slides/ec_siip_01.pdf)
+ - [Goal of course, overview, requirements](slides/ec_siip_01.pdf)
  - [Version control system](slides/ec_siip_02.pdf),
  - [SW requirements & preparation](slides/ec_siip_00.pdf)
 
@@ -72,7 +72,7 @@ Strategy
  - [OpenMP : critical sections, parallel for loops](slides/ec_siip_14.pdf)
 
 ### Class 7
- - OpenMP : loop dependencies, threadsafe, directives
+ - OpenMP : loop dependencies, thread-safe, directives
  - Fine grain vs coarse grain. Demo of OpenMP
 
 
