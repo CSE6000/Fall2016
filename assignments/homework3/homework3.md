@@ -48,7 +48,15 @@ cout << "warp_mat = " << endl << " " << warp_mat << endl << endl;
  ```
    **NOTE** DO NOT CHANGE CODES ABOVE
 
-## 3-3 Submission (1pt)
+## 3-3 Result (1pt)
+  - Run it again to make result file.
+
+  ```
+  $ AffineTransform.exe > output.txt
+  ```
+  - Move `output.txt` to `/assignments/homework3/output.txt`.
+
+## 3-4 Submission (1pt)
  - At the end you should have the following files committed to your repository:
   * `/assignments/homework3/output.txt`
   * `/assignments/homework3/AffineTransformation/AffineTransform.sln`
