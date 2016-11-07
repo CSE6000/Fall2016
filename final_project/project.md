@@ -19,7 +19,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 10    | 11-28 |      |       |
 | 11    | 12-05 |      |       |
 | 12    | 12-05 |      |       |
-| 13    | 12-05 |   ±Ë»≠∆Ú   |   Microwave imaging    |
+| 13    | 12-05 |   ÍπÄÌôîÌèâ   |   Microwave imaging    |
 | 14    | 12-05 |      |       |
 | 15    | 12-05 |      |       |
 | 16    | 12-05 |      |       |
