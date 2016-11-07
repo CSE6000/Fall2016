@@ -4,7 +4,7 @@
 
 int main()
 {
-	int m = 10;
+    int m = 10;
     int n = 10;
     int i, j, nthreads;
     double *a;
@@ -16,7 +16,7 @@ int main()
     {
         for(i = 0; i < n; i++)
         {
-    		a[j * n + i] = 0.0;
+            a[j * n + i] = 0.0;
         }
     }
 
@@ -30,7 +30,7 @@ int main()
       }
    }
 
-	//Corrected: (j’s can be done in any order, i’s cannot)
+    //Corrected: (j’s can be done in any order, i’s cannot)
    #pragma omp parallel for private(i)
    for(j = 0; j < m; j++)
    {
