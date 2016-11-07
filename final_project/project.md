@@ -17,7 +17,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 8     | 11-28 |      |       |
 | 9     | 11-28 |      |       |
 | 10    | 11-28 |      |       |
-| 11    | 12-05 |      |       |
+| 11    | 12-05 | 이승리 |       |
 | 12    | 12-05 |      |       |
 | 13    | 12-05 |      |       |
 | 14    | 12-05 |      |       |
