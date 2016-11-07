@@ -2,7 +2,7 @@
 Class page for Embedded computing for scientific and industrial imaging applications
 
 - Course: CSE6000-01, Dept. of CSE, Yonsei University
-- Instructor: 이은정 (eunjunglee@yonsei.ac.kr), 양한별(yhbyhb@yonsei.ac.kr)
+- Instructor: Eunjung Lee (eunjunglee(at)yonsei.ac.kr), HanByul Yang (yhbyhb@(at)yonsei.ac.kr)
 - ASTC 516, Mon 16:00 ~ 18:50
 
 ## Course Description
@@ -34,37 +34,47 @@ Strategy
 - Focusing hands-on experience.
 - Learn what’s out there to help select what’s best for your needs.
 
+## Grading
+- 3 homeworks
+- 1 project presentation
+
 ## Course Outline
+*Classes may not be given in order below.*
 
 ### Class 1
-
- - [Goal of course, overview, requirments](slides/ec_siip_01.pdf)
+ - [Goal of course, overview, requirements](slides/ec_siip_01.pdf)
  - [Version control system](slides/ec_siip_02.pdf),
- - [sw requirements & preparation](slides/ec_siip_00.pdf)
+ - [SW requirements & preparation](slides/ec_siip_00.pdf)
 
 ### Class 2
  - [Git and GitHub demo](slides/ec_siip_03.pdf)
  - [C Demo, Newton's method](slides/ec_siip_04.pdf)
+ - [homework1](assignments/homework1/homework1.md)
 
 ### Class 3
- - More demo of git and C
- - Computer architecture, cache, optimization,
+ - [Visual studio, Newton's method, Binary storage, floating point number](slides/ec_siip_05.pdf)
+ - [C, data type, function, array, pointer](slides/ec_siip_06.pdf)
+ - [homework2](assignments/homework2/homework2.md)
 
 ### Class 4
- - Data type, function, pointer
- - Computer arithmetic, optimization flag
+ - [Computer architecture, cache, optimization](slides/ec_siip_07.pdf)
+ - [Computer arithmetic, optimization flag](slides/ec_siip_08.pdf)
+ - [Intro to OpenCV](slides/ec_siip_09.pdf)
 
 ### Class 5
- - Parallel computing, Amdahl’s law,
- - OpenMP : critical sections, parallel do loops
+ - [Affine transformation](slides/ec_siip_10.pdf)
+ - [BLAS and LAPACK](slides/ec_siip_11.pdf)
+ - [Solving linear systems with MKL](slides/ec_siip_12.pdf)
+ - [homework3](assignments/homework3/homework3.md)
 
 ### Class 6
- - OpenMP : loop dependencies, threadsafe, directives
- - Fine grain vs coarse grain. Demo of OpenMP
+ - [Parallel computing, Amdahl’s law](slides/ec_siip_13.pdf)
+ - [OpenMP : critical sections, parallel for loops](slides/ec_siip_14.pdf)
 
 ### Class 7
- - Intel parallel studio XE, BLAS, LAPACK
- - Solving linear systems with MKL
+ - OpenMP : loop dependencies, thread-safe, directives
+ - Fine grain vs coarse grain. Demo of OpenMP
+
 
 ## Links
  - [Visual Studio](https://www.visualstudio.com/)

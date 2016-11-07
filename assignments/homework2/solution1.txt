@@ -1,0 +1,14 @@
+myexp() example
+x = 1.000000, iter =  0, 1.000000000000000
+x = 1.000000, iter =  1, 2.000000000000000
+x = 1.000000, iter =  2, 2.500000000000000
+x = 1.000000, iter = 20, 2.718281828459046
+Invalid input. iteration must be non-negative integer
+x = 1.000000, iter = -5, nan
+mysin() example
+x = 1.570796, iter =  2, 1.570796326794897
+x = 1.570796, iter =  3, 0.924832229288650
+x = 1.570796, iter =  4, 0.924832229288650
+x = 1.570796, iter =  5, 1.004524855534817
+Invalid input. iteration must be non-negative integer
+x = 1.570796, iter = -3, nan

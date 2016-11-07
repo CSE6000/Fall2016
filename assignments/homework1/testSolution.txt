@@ -1,0 +1,26 @@
+
+Code run by **INSERT YOUR NAME HERE**
+
+which git returns...
+/mingw64/bin/git
+
+check whether visual studio installed...
+/c/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+
+Compiling a C code...
+HelloWorld.c
+Microsoft (R) Incremental Linker Version 14.00.24210.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:HelloWorld.exe 
+HelloWorld.obj 
+"C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/lib/LIBCMT.lib" 
+"C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/lib/OLDNAMES.lib" 
+"C:/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/x86/kernel32.lib" 
+"C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/lib/libvcruntime.lib" 
+"C:/Program Files (x86)/Windows Kits/10/Lib/10.0.10240.0/ucrt/x86/libucrt.lib" 
+"C:/Program Files (x86)/Windows Kits/8.1/Lib/winv6.3/um/x86/uuid.lib" 
+
+Running HelloWorld
+Code run by **INSERT YOUR NAME HERE**
+Hello world!
