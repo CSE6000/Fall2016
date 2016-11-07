@@ -1,5 +1,5 @@
 # Homework 3 Affine transformation
-Due Wednesday, November 14, 2016, by 15:59 PM KST
+Due Monday, November 14, 2016, by 15:59 PM KST
 
 The goals of this homework are to :
 - Get some experience with OpenCV and LAPACK(MKL)
@@ -55,6 +55,7 @@ Please read carefully and follow instructions especially penalty.
   $ AffineTransform.exe > output.txt
   ```
   - Move `output.txt` to `/assignments/homework3/output.txt`.
+  **NOTE** Make sure the image file(`HappyFish.jpg`) must be in same directory with execution file.
 
 ## 3-4 Submission (1pt)
   - At the end you should have the following files committed to your repository:
