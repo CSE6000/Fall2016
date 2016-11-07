@@ -12,7 +12,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 3     | 11-21 |      |       |
 | 4     | 11-21 |      |       |
 | 5     | 11-21 |      |       |
-| 6     | 11-28 |      |       |
+| 6     | 11-28 | 황윤구     |       |
 | 7     | 11-28 |      |       |
 | 8     | 11-28 |      |       |
 | 9     | 11-28 |      |       |
