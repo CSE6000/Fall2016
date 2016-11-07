@@ -2,7 +2,7 @@
 Class page for Embedded computing for scientific and industrial imaging applications
 
 - Course: CSE6000-01, Dept. of CSE, Yonsei University
-- Instructor: Eunjung Lee (eunjunglee(at)yonsei.ac.kr), HanByul Yang (yhbyhb@(at)onsei.ac.kr)
+- Instructor: Eunjung Lee (eunjunglee(at)yonsei.ac.kr), HanByul Yang (yhbyhb@(at)yonsei.ac.kr)
 - ASTC 516, Mon 16:00 ~ 18:50
 
 ## Course Description
@@ -34,12 +34,15 @@ Strategy
 - Focusing hands-on experience.
 - Learn what’s out there to help select what’s best for your needs.
 
+## Grading
+- 3 homeworks
+- 1 project presentation
+
 ## Course Outline
 *Classes may not be given in order below.*
 
 ### Class 1
-
- - [Goal of course, overview, requirments](slides/ec_siip_01.pdf)
+ - [Goal of course, overview, requirements](slides/ec_siip_01.pdf)
  - [Version control system](slides/ec_siip_02.pdf),
  - [SW requirements & preparation](slides/ec_siip_00.pdf)
 
@@ -59,16 +62,18 @@ Strategy
  - [Intro to OpenCV](slides/ec_siip_09.pdf)
 
 ### Class 5
- - Parallel computing, Amdahl’s law,
- - OpenMP : critical sections, parallel do loops
+ - [Affine transformation](slides/ec_siip_10.pdf)
+ - [BLAS and LAPACK](slides/ec_siip_11.pdf)
+ - [Solving linear systems with MKL](slides/ec_siip_12.pdf)
+ - [homework3](assignments/homework3/homework3.md)
 
 ### Class 6
- - OpenMP : loop dependencies, threadsafe, directives
- - Fine grain vs coarse grain. Demo of OpenMP
+ - [Parallel computing, Amdahl’s law](slides/ec_siip_13.pdf)
+ - [OpenMP : critical sections, parallel for loops](slides/ec_siip_14.pdf)
 
 ### Class 7
- - Intel parallel studio XE, BLAS, LAPACK
- - Solving linear systems with MKL
+ - OpenMP : loop dependencies, thread-safe, directives
+ - Fine grain vs coarse grain. Demo of OpenMP
 
 
 ## Links

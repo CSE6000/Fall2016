@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{ADCF0EC3-0BB5-47FB-89DD-83EA85041EDF}</ProjectGuid>
+    <ProjectGuid>{21DC6731-D542-410A-953B-12D87ED71647}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ImageWatch</RootNamespace>
+    <RootNamespace>cout_mat</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -85,10 +85,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ImageWatch.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Lena.png" />
+    <ClCompile Include="cout_mat.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

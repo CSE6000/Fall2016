@@ -10,7 +10,7 @@ int main()
 
 	double y = 1. + 3.e-16;
 	printf("y = %.16f\n", y);
-	printf("y - 1.0 = %e\n", y - 1.0);
+	printf("y - 1.0 = %.16e\n", y - 1.0);
 
 	y = 1.0 + 1e-16;
 	printf("y = %.16f\n", y);
@@ -18,11 +18,11 @@ int main()
 
 	printf("pi = %.16f\n", M_PI);
 	y = M_PI * 1.e-10;
-	printf("y = %e\n", y);
+	printf("y = %.16e\n", y);
 
 	double z = 1.0 + y;
 	printf("z = %.16f\n", z);
-	printf("z - 1 = %e\n", z - 1.0);
+	printf("z - 1 = %.16e\n", z - 1.0);
 
 	return 0;
 }
