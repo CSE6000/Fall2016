@@ -15,7 +15,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 6     | 11-28 |      |       |
 | 7     | 11-28 |      |       |
 | 8     | 11-28 |      |       |
-| 9     | 11-28 |손승|Hand Shape and Gesture Recognition|
+| 9     | 11-28 |손승배|Hand Shape and Gesture Recognition with Infrared Sensors in Active Sensing|
 | 10    | 11-28 |      |       |
 | 11    | 12-05 |      |       |
 | 12    | 12-05 |      |       |
