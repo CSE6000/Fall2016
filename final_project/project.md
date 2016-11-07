@@ -27,4 +27,4 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 ## Project presentation
  11/21, 11/28, 12/5
 
-## Final write up
+## Final write up 
