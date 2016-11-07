@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yeval", "yeval\yeval.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "private1", "private1\private1.vcxproj", "{EFA6993C-AC99-4E5A-8C42-76EBB47D73C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conditional", "conditional\conditional.vcxproj", "{D647F5A3-6181-4AD5-AD64-6D36510179D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{EFA6993C-AC99-4E5A-8C42-76EBB47D73C3}.Release|x64.Build.0 = Release|x64
 		{EFA6993C-AC99-4E5A-8C42-76EBB47D73C3}.Release|x86.ActiveCfg = Release|Win32
 		{EFA6993C-AC99-4E5A-8C42-76EBB47D73C3}.Release|x86.Build.0 = Release|Win32
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Debug|x64.ActiveCfg = Debug|x64
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Debug|x64.Build.0 = Debug|x64
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Debug|x86.Build.0 = Debug|Win32
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Release|x64.ActiveCfg = Release|x64
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Release|x64.Build.0 = Release|x64
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Release|x86.ActiveCfg = Release|Win32
+		{D647F5A3-6181-4AD5-AD64-6D36510179D3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
