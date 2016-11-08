@@ -5,12 +5,12 @@ Your final project gives you the opportunity to dive into embedded computing sof
 NOTE. Extra credit for using mobile phone or any embedded devices.
 
 ## Project schedule
-| No.   | Date  | Name | Topic | 
-| ----- | ----- | ---- | ----- | 
+| No.   | Date  | Name | Topic |
+| ----- | ----- | ---- | ----- |
 | 1     | 11-21 |      |       |
 | 2     | 11-21 | 김도현 | DGFEM for Poisson 2D |
 | 3     | 11-21 |      |       |
-| 4     | 11-21 |      |       |
+| 4     | 11-21 | 하헌규 |       |
 | 5     | 11-21 |      |       |
 | 6     | 11-28 |황윤구  |    FEM|
 | 7     | 11-28 |      |       |
