@@ -12,8 +12,8 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 3     | 11-21 | 서지연 | FEM   |
 | 4     | 11-21 | 하헌규 |       |
 | 5     | 11-21 |      |       |
-| 6     | 11-28 | 황윤구 |    FEM|
-| 7     | 11-28 |      |       |
+| 6     | 11-28 | 황윤구 | FEM   |
+| 7     | 11-28 | 장준영 |       |
 | 8     | 11-28 |      |       |
 | 9     | 11-28 | 이윤정 | kNN   |
 | 10    | 11-28 |      |       |
