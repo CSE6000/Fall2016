@@ -16,10 +16,10 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 7     | 11-28 | 장준영 |       |
 | 8     | 11-28 | 손승배 |       |
 | 9     | 11-28 | 이윤정 | kNN   |
-| 10    | 11-28 |      |       |
+| 10    | 11-28 | 이시복 |       |
 | 11    | 12-05 | 이승리 |       |
 | 12    | 12-05 |      |       |
-| 13    | 12-05 |   김화평   |   Microwave imaging    |
+| 13    | 12-05 | 김화평 | Microwave imaging    |
 | 14    | 12-05 |      |       |
 | 15    | 12-05 | 김부권 |       |
 | 16    | 12-05 |      |       |
