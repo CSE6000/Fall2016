@@ -15,7 +15,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 6     | 11-28 | 황윤구 |    FEM|
 | 7     | 11-28 |      |       |
 | 8     | 11-28 |      |       |
-| 9     | 11-28 |      |       |
+| 9     | 11-28 | 이윤정 | kNN   |
 | 10    | 11-28 |      |       |
 | 11    | 12-05 | 이승리 |       |
 | 12    | 12-05 |      |       |
