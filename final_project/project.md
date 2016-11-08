@@ -8,7 +8,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | No.   | Date  | Name | Topic | 
 | ----- | ----- | ---- | ----- | 
 | 1     | 11-21 |      |       |
-| 2     | 11-21 |      |       |
+| 2     | 11-21 | 김도현 | DGFEM for Poisson 2D |
 | 3     | 11-21 |      |       |
 | 4     | 11-21 |      |       |
 | 5     | 11-21 |      |       |
