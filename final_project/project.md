@@ -9,10 +9,10 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | ----- | ----- | ---- | ----- |
 | 1     | 11-21 |      |       |
 | 2     | 11-21 | 김도현 | DGFEM for Poisson 2D |
-| 3     | 11-21 |      |       |
+| 3     | 11-21 | 서지연 | FEM   |
 | 4     | 11-21 | 하헌규 |       |
 | 5     | 11-21 |      |       |
-| 6     | 11-28 |황윤구  |    FEM|
+| 6     | 11-28 | 황윤구 |    FEM|
 | 7     | 11-28 |      |       |
 | 8     | 11-28 |      |       |
 | 9     | 11-28 |      |       |
@@ -21,7 +21,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 12    | 12-05 |      |       |
 | 13    | 12-05 |      |       |
 | 14    | 12-05 |      |       |
-| 15    | 12-05 |김부권|       |
+| 15    | 12-05 | 김부권 |       |
 | 16    | 12-05 |      |       |
 
 ## Project presentation
