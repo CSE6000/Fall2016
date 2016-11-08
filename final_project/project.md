@@ -21,7 +21,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 12    | 12-05 |      |       |
 | 13    | 12-05 |      |       |
 | 14    | 12-05 |      |       |
-| 15    | 12-05 |      |       |
+| 15    | 12-05 |김부권|       |
 | 16    | 12-05 |      |       |
 
 ## Project presentation
