@@ -22,7 +22,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 13    | 12-05 | 김화평 | Microwave imaging    |
 | 14    | 12-05 | 김영수 |       |
 | 15    | 12-05 | 김부권 |       |
-| 16    | 12-05 |      |       |
+| 16    | 12-05 | 최원준 | TBA   |
 
 ## Project presentation
  11/21, 11/28, 12/5
