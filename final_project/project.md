@@ -20,7 +20,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 11    | 12-05 | 이승리 |       |
 | 12    | 12-05 |      |       |
 | 13    | 12-05 | 김화평 | Microwave imaging    |
-| 14    | 12-05 |      |       |
+| 14    | 12-05 | 김영수 |       |
 | 15    | 12-05 | 김부권 |       |
 | 16    | 12-05 |      |       |
 
