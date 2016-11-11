@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reduction", "reduction\redu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrix_mul", "Matrix_mul\Matrix_mul.vcxproj", "{A1D6DB29-F3DD-4024-92AF-CF52DDF321C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loop_carried_dependency", "loop_carried_dependency\loop_carried_dependency.vcxproj", "{BFB8D862-5385-457B-957F-4D08243EEF2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{A1D6DB29-F3DD-4024-92AF-CF52DDF321C7}.Release|x64.Build.0 = Release|x64
 		{A1D6DB29-F3DD-4024-92AF-CF52DDF321C7}.Release|x86.ActiveCfg = Release|Win32
 		{A1D6DB29-F3DD-4024-92AF-CF52DDF321C7}.Release|x86.Build.0 = Release|Win32
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Debug|x64.ActiveCfg = Debug|x64
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Debug|x64.Build.0 = Debug|x64
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Debug|x86.Build.0 = Debug|Win32
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Release|x64.ActiveCfg = Release|x64
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Release|x64.Build.0 = Release|x64
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Release|x86.ActiveCfg = Release|Win32
+		{BFB8D862-5385-457B-957F-4D08243EEF2B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
