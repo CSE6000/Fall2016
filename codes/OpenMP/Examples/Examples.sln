@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "parallel_with_for_loops", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo2", "demo2\demo2.vcxproj", "{AD96811B-E93F-4E75-A061-E2528DCCFCD0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "umax1", "umax1\umax1.vcxproj", "{DF369229-E17A-45C9-A0D7-75F065E770CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{AD96811B-E93F-4E75-A061-E2528DCCFCD0}.Release|x64.Build.0 = Release|x64
 		{AD96811B-E93F-4E75-A061-E2528DCCFCD0}.Release|x86.ActiveCfg = Release|Win32
 		{AD96811B-E93F-4E75-A061-E2528DCCFCD0}.Release|x86.Build.0 = Release|Win32
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Debug|x64.ActiveCfg = Debug|x64
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Debug|x64.Build.0 = Debug|x64
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Debug|x86.Build.0 = Debug|Win32
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Release|x64.ActiveCfg = Release|x64
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Release|x64.Build.0 = Release|x64
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Release|x86.ActiveCfg = Release|Win32
+		{DF369229-E17A-45C9-A0D7-75F065E770CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
