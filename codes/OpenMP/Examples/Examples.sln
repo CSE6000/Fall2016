@@ -15,7 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nested", "nested\nested.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reduction", "reduction\reduction.vcxproj", "{69AC1DCD-A23B-4BFF-A040-53B0BBF7FAC9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrix_mul", "Matrix_mul\Matrix_mul.vcxproj", "{A1D6DB29-F3DD-4024-92AF-CF52DDF321C7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matrix_multiplication", "matrix_multiplication\matrix_multiplication.vcxproj", "{A1D6DB29-F3DD-4024-92AF-CF52DDF321C7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loop_carried_dependency", "loop_carried_dependency\loop_carried_dependency.vcxproj", "{BFB8D862-5385-457B-957F-4D08243EEF2B}"
 EndProject
