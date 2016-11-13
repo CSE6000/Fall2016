@@ -51,7 +51,7 @@ int main()
 		thread_num = omp_get_thread_num(); // unique for each thread
 
 		// Determine start and end index for the set of points to be handled by this thread:
-		istart = thread_num * points_per_thread + 1;
+		istart = thread_num * points_per_thread;
 		iend = min((thread_num + 1) * points_per_thread, n);
 
 		#pragma omp critical
