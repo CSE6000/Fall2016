@@ -51,5 +51,8 @@ int main()
 	printf("norm of x = %f  n(n+1)/2 = %d\n", norm, (n - 1)*(n / 2));
 	printf("ynorm should be 1.0:   ynorm = %f\n", ynorm);
 
+	free(x);
+	free(y);
+
 	return 0;
 }
