@@ -64,11 +64,11 @@ Please read carefully and follow instructions especially penalty.
 ## 3-4 Submission (1pt)
   - At the end you should have the following files committed to your repository:
     * `/assignments/homework3/output.txt`
-    * `/assignments/homework3/AffineTransformation/AffineTransform.sln`
-    * `/assignments/homework3/AffineTransformation/AffineTransform/AffineTransform.cpp`
-    * `/assignments/homework3/AffineTransformation/AffineTransform/AffineTransform.vcxproj`
-    * `/assignments/homework3/AffineTransformation/AffineTransform/AffineTransform.vcxproj.filters`
-    * `/assignments/homework3/AffineTransformation/AffineTransform/HappyFish.jpg`
+    * `/assignments/homework3/AffineTransform/AffineTransform.sln`
+    * `/assignments/homework3/AffineTransform/AffineTransform/AffineTransform.cpp`
+    * `/assignments/homework3/AffineTransform/AffineTransform/AffineTransform.vcxproj`
+    * `/assignments/homework3/AffineTransform/AffineTransform/AffineTransform.vcxproj.filters`
+    * `/assignments/homework3/AffineTransform/AffineTransform/HappyFish.jpg`
 
   **NOTE** Do not add other files such as `AffineTransform.exe`, which are created when the c code was compiled. Penalty will be -0.1 * number of files which are unnecessary.
 
