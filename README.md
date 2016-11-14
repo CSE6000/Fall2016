@@ -72,9 +72,11 @@ Strategy
  - [OpenMP : critical sections, parallel for loops](slides/ec_siip_14.pdf)
 
 ### Class 7
- - OpenMP : loop dependencies, thread-safe, directives
- - Fine grain vs coarse grain. Demo of OpenMP
+ - [OpenMP : loop dependencies, thread-safe, other directives](slides/ec_siip_15.pdf)
+ - [Fine grain vs coarse grain. Demo of OpenMP](slides/ec_siip_16.pdf)
 
+## Final project
+ - [Final project](final_project/project.md)
 
 ## Links
  - [Visual Studio](https://www.visualstudio.com/)
