@@ -24,7 +24,8 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 15    | 12-05 | 김부권 |       |
 | 16    | 12-05 | 최원준 | TBA   |
 
-## Project presentation
- 11/21, 11/28, 12/5
+## Project files
+ * Subimit your project files to `YOUR_REPOSITORY/final_project/`
+  - Project related codes
+  - Project slides 
 
-## Final write up
