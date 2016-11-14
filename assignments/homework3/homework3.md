@@ -1,5 +1,5 @@
 # Homework 3 Affine transformation
-Due Monday, November 14, 2016, by 15:59 PM KST
+Due Monday, November 14, 2016, by 23:59 PM KST
 
 The goals of this homework are to :
 - Get some experience with OpenCV and LAPACK(MKL)
@@ -55,7 +55,11 @@ Please read carefully and follow instructions especially penalty.
   $ AffineTransform.exe > output.txt
   ```
   - Move `output.txt` to `/assignments/homework3/output.txt`.
+
   **NOTE** Make sure the image file(`HappyFish.jpg`) must be in same directory with execution file.
+
+  - if you see error message like below, add MKL redistributable path (`C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2017.1.143\windows\redist\intel64\mkl` or `%ICPP_COMPILER17%redist\intel64\mkl`) to `%PATH%` environment variable.
+  ![error msg](error_msg.PNG)
 
 ## 3-4 Submission (1pt)
   - At the end you should have the following files committed to your repository:
