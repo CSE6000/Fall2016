@@ -74,5 +74,5 @@ Please read carefully and follow instructions especially penalty.
 
   **NOTE** You should follow the file path listed above. Penalty will be 0.5 * points of (3-1 and 3-2).
 
-## 3-4 Tag your homework (1pt)
+## 3-5 Tag your homework (1pt)
   - Tag the commit as 'homework3' that you want graded. If you submit the wrong thing or make further changes to your work before the due date, you can delete old tag and re-tag to new commit.
