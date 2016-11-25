@@ -23,6 +23,7 @@ NOTE. Extra credit for using mobile phone or any embedded devices.
 | 14    | 12-05 | 김영수 |       |
 | 15    | 12-05 | 김부권 |       |
 | 16    | 12-05 | 최원준 | TBA   |
+| 17    | 12-05 | 김동은 |       |
 
 ## Project files
  * Subimit your project files to `YOUR_REPOSITORY/final_project/`
