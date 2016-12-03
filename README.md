@@ -75,6 +75,9 @@ Strategy
  - [OpenMP : loop dependencies, thread-safe, other directives](slides/ec_siip_15.pdf)
  - [Fine grain vs coarse grain. Demo of OpenMP](slides/ec_siip_16.pdf)
 
+### Class 8
+ - [Binary vs text output, Course summary](slides/ec_siip_17.pdf)
+
 ## Final project
  - [Final project](final_project/project.md)
 
